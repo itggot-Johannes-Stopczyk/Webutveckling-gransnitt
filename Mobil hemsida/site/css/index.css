@@ -2,10 +2,31 @@ body{
     background-color: lightseagreen;
 }
 
-@media only screen and (max-device-width: 400px){
+.container{
+    width: 667px;
+    height: 375px;
+    display: grid;
+    grid-template-columns: repeat(7,1fr);
+    grid-template-rows: repeat(9,1fr);
+}
+
+
+
+@media only screen and (max-device-width: 668px){
 
     body{
         background-color: red;
+    }
+
+    .container{
+        width: 100vw;
+        height: 100vh;
+        /*
+        width: 375px;
+        height: 667px;*/
+        display: grid;
+        grid-template-columns: repeat(7,1fr);
+        grid-template-rows: repeat(9,1fr);
     }
 
 }
