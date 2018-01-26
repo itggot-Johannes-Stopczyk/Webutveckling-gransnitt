@@ -1,0 +1,11 @@
+body{
+    background-color: lightseagreen;
+}
+
+@media only screen and (max-device-width: 400px){
+
+    body{
+        background-color: red;
+    }
+
+}
