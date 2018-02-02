@@ -3,8 +3,8 @@ body{
 }
 
 .container{
-    width: 667px;
-    height: 375px;
+    width: 100vw;
+    height: 100vh;
     display: grid;
     grid-template-columns: repeat(7,1fr);
     grid-template-rows: repeat(9,1fr);
@@ -12,7 +12,35 @@ body{
 
 
 
-@media only screen and (max-device-width: 668px){
+
+
+
+
+
+
+
+
+
+@media only screen and (min-device-width: 668px){
+    
+    body{
+        background-color: green;
+    }
+    
+    .container{
+        width: 100vw;
+        height: 100vh;
+        /*
+        width: 375px;
+        height: 667px;*/
+        display: grid;
+        grid-template-columns: repeat(7,1fr);
+        grid-template-rows: repeat(9,1fr);
+    }
+
+}
+
+@media only screen and (min-device-width: 376px){
 
     body{
         background-color: red;
