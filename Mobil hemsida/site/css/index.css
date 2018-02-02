@@ -1,5 +1,5 @@
 body{
-    background-color: lightseagreen;
+    background-color: white;
 }
 
 .container{
@@ -10,7 +10,17 @@ body{
     grid-template-rows: repeat(9,1fr);
 }
 
+.picture{
+    background-image: url(../img/Bild_1.jpg);
+    grid-column: 2/7;
+    grid-row: 2/6;
+}
 
+.bar{
+    background-color: black;
+    grid-column: 1/8;
+    grid-row: 1/2;
+}
 
 
 
