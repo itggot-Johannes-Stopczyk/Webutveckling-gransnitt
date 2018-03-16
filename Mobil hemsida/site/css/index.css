@@ -18,28 +18,33 @@ body{
     background-size: cover;
     grid-column: 1/10;
     grid-row: 2/12;
-    
 }
-/*
-.picture2{
-    background-image: url(../img/Bild_1.jpg);
-    grid-column: 6/9;
-    grid-row: 3/7;
-}*/ 
 
 .bar{
     background-color: #870933;
     grid-column: 1/10;
-    grid-row: 1/2;   
+    grid-row: 1/2;
 }
 
-button.menu_icon{
+.menu_icon{
     grid-column: 1/2;
     grid-row: 1/2;
-    margin-top: 10px;
+    margin-top: 12px;
     margin-left: 10px;
 }
 
+.material-icons {
+    font-family: 'Material Icons';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 32px;  /* Preferred icon size */
+    display: inline-block;
+    line-height: 1;
+    text-transform: none;
+    letter-spacing: normal;
+    word-wrap: normal;
+    white-space: nowrap;
+    direction: ltr;
 
 /*Desktop*/
 @media only screen and (min-device-width: 667px){
